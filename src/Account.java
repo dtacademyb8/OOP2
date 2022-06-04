@@ -34,14 +34,14 @@ public abstract class Account implements BaseInterestRate {
    System.out.println(balance);   
   }
 
-  // public void withdraw (double amount){
-  //   if (amount <= balance){
-  //   System.out.println ( balance - amount);
-  //   }
-  //   else if (amount > (balance)){
-  //     System.out.println("ERROR"); 
-  //   }
-  //   }
+  public void withdraw (double amount){
+//     if (amount <= balance){
+//     System.out.println ( balance - amount);
+//     }
+//     else if (amount > (balance)){
+//       System.out.println("ERROR"); 
+//     }
+    }
   
   public String showInfo() {
     return "NAME: " + name + "\n" + "SSN: " + ssn + "\n" + "ACCOUNT NUMBER: " + accountNumber + "\n" + "ROUTING NUMBER: " + routingNumber + "\n" + "BALANCE: " + balance;
