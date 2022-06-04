@@ -29,8 +29,8 @@ public abstract class Account implements BaseInterestRate {
     return num;
   }
 
-  public void deposit (double amount){
-    balance = amount + balance;
+  public void deposit (double amountDouble){
+    balance = amountDouble + balance;
    System.out.println(balance);   
   }
 
