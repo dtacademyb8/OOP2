@@ -12,8 +12,7 @@ class Main {
     String add = "";
      
        do{
-    ///ddvcdvcd
-         
+
         System.out.println("Please, enter the name of the file to load: ");
          String name = inp.next();
          System.out.println("_________________________________________________________________________");
