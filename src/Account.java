@@ -34,6 +34,7 @@ public abstract class Account implements BaseInterestRate {
    System.out.println(balance);   
   }
 
+
    public void withdraw (double amount){
      if (amount <= Double.parseDouble(balance)){
      System.out.println ( Double.parseDouble(balance) - amount);
@@ -42,6 +43,8 @@ public abstract class Account implements BaseInterestRate {
        System.out.println("ERROR");
      }
      }
+
+
   
   public String showInfo() {
     return "NAME: " + name + "\n" + "SSN: " + ssn + "\n" + "ACCOUNT NUMBER: " + accountNumber + "\n" + "ROUTING NUMBER: " + routingNumber + "\n" + "BALANCE: " + balance;
